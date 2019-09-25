@@ -5,7 +5,7 @@ namespace CesarCrypt.Models
 {
     public struct AlphabetModel
     {
-        public int position { get; set; }
+        public int? position { get; set; }
         public string letter { get; set; }
 
         private List<AlphabetModel> GetAlphabet()
@@ -23,12 +23,18 @@ namespace CesarCrypt.Models
 
         public string GetLetterByPosition(int position)
         {
+            if (position < 0 || position > 26)
+                return "";
+
             return GetAlphabet().Where(p => p.position == position).FirstOrDefault().letter;
         }
 
         public int GetPositionByLetter(char letter)
         {
-            return GetAlphabet().Where(p => p.letter == letter.ToString()).FirstOrDefault().position;
+            if (letter == null || letter == ' ')
+                return -1;
+            var position = GetAlphabet().Where(p => p.letter == letter.ToString()).FirstOrDefault();
+            return position.position ?? -1;
         }
     }
 }

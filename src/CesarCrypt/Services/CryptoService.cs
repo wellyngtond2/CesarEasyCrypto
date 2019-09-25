@@ -8,16 +8,28 @@ namespace CesarCrypt.Service
     {
         public static string Decrypt(string EncryptText, int HouseNumber)
         {
+            if (HouseNumber >= 26 || HouseNumber < 0)
+                return EncryptText;
+
+            if (string.IsNullOrEmpty(EncryptText))
+                return "";
+
             var decryptedText = "";
             foreach (var letter in EncryptText)
                 decryptedText += letter.isNotLetter() ? letter.ToString() : GetCharDecrypted(HouseNumber, letter, EMode.Decrypting);
             return decryptedText;
         }
 
-        public static string Encrypt(string EncryptText, int HouseNumber)
+        public static string Encrypt(string InputText, int HouseNumber)
         {
+            if (HouseNumber >= 26 || HouseNumber < 0)
+                return InputText;
+
+            if (string.IsNullOrEmpty(InputText))
+                return "";
+
             var decryptedText = "";
-            foreach (var letter in EncryptText)
+            foreach (var letter in InputText)
                 decryptedText += letter.isNotLetter() ? letter.ToString() : GetCharDecrypted(HouseNumber, letter, EMode.Encrypt);
             return decryptedText;
         }
@@ -35,12 +47,12 @@ namespace CesarCrypt.Service
 
         private static int GetNewIndex(int HouseNumber, char letter, EMode mode)
         {
-            int index = GetIndexEncryptedText(letter);
+            int index = GetIndexEncryptedText(letter) ?? 0;
             int newIndex = index - (mode == EMode.Decrypting ? HouseNumber : HouseNumber * -1);
-            return mode == EMode.Decrypting ? (newIndex < 0 ? (26 - (newIndex * -1)) : newIndex) : (newIndex > 26 ? (newIndex - 26) : newIndex) ;
+            return mode == EMode.Decrypting ? (newIndex < 0 ? (26 - (newIndex * -1)) : newIndex) : (newIndex >= 26 ? (newIndex - 26) : newIndex);
         }
 
-        private static int GetIndexEncryptedText(char letter)
+        private static int? GetIndexEncryptedText(char letter)
         {
             return new AlphabetModel().GetPositionByLetter(letter);
         }

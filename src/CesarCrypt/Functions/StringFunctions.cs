@@ -7,6 +7,8 @@ namespace CesarCrypt.Funtions
     {
         public static string StringToSha1(this string text)
         {
+            if (string.IsNullOrEmpty(text))
+                return "";
             byte[] data = Encoding.ASCII.GetBytes(text);
             byte[] hashData = new SHA1Managed().ComputeHash(data);
             string hash = string.Empty;

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\src\\CesarCrypt\\CesarCrypt.csproj",
+      "projectUniqueName": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\CesarEasyCrypto\\src\\CesarCrypt\\CesarCrypt.csproj",
       "projectName": "CesarCrypt",
-      "projectPath": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\src\\CesarCrypt\\CesarCrypt.csproj",
+      "projectPath": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\CesarEasyCrypto\\src\\CesarCrypt\\CesarCrypt.csproj",
       "packagesPath": "C:\\Users\\Wellyngton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\src\\CesarCrypt\\obj\\",
+      "outputPath": "C:\\Users\\Wellyngton\\source\\repos\\CesarCrypt\\CesarEasyCrypto\\src\\CesarCrypt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

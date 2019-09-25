@@ -7,3 +7,12 @@ C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netstandard2.0\
 C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.AssemblyInfo.cs
 C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.dll
 C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.pdb
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\bin\Debug\netstandard2.0\CesarCrypt.deps.json
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\bin\Debug\netstandard2.0\CesarCrypt.dll
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\bin\Debug\netstandard2.0\CesarCrypt.pdb
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.csprojAssemblyReference.cache
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.csproj.CoreCompileInputs.cache
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.AssemblyInfoInputs.cache
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.AssemblyInfo.cs
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.dll
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarEasyCrypto\src\CesarCrypt\obj\Debug\netstandard2.0\CesarCrypt.pdb
