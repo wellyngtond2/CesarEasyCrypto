@@ -1,0 +1,11 @@
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\bin\Debug\netcoreapp2.1\CesarCrypt.deps.json
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\bin\Debug\netcoreapp2.1\CesarCrypt.runtimeconfig.json
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\bin\Debug\netcoreapp2.1\CesarCrypt.runtimeconfig.dev.json
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\bin\Debug\netcoreapp2.1\CesarCrypt.dll
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\bin\Debug\netcoreapp2.1\CesarCrypt.pdb
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.csproj.CoreCompileInputs.cache
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.AssemblyInfoInputs.cache
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.AssemblyInfo.cs
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.dll
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.pdb
+C:\Users\Wellyngton\source\repos\CesarCrypt\CesarCrypt\obj\Debug\netcoreapp2.1\CesarCrypt.csprojAssemblyReference.cache
